@@ -51,13 +51,6 @@ h3 {
     font-size: 20px;   
 }
 
-h2 {
-    color: #bfa41c;
-    text-align: center;
-    font-size: 45px;
-    font-family: "adobe-garamond";
-}
-
 .colorDeFondoFieldset {
     background-color: peru;
 }
@@ -139,9 +132,7 @@ div.img:hover {
     
 }
 .producers {
-    display: flex;
-    justify-content: center;
-    
+    width: 120px; 
 }
 
 .mainTitle {
@@ -214,13 +205,9 @@ nav {
     height: 50px;
     z-index: 100;
 }
-
-footer {
-    background-color: black;
-    display: flex;
-    flex-direction: column;
+.footerStyle {
+    background-color:black;
 }
-
 .iconsSM {
     height: 100px;
     width: auto;
@@ -555,11 +542,3 @@ margin-top: 30px;
     }
 }
 
-
-@media only screen and ( max-width: 992px)  {
-    
-}
-
-@media only screen and ( min-width: 992px)  {
-    
-}

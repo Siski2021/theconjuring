@@ -146,16 +146,12 @@ div.img:hover {
 }
 
 .mainImg {
-    width: 70%;
-    margin-bottom: 50px;
-    margin-left: 200px;
-
     -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter: drop-shadow(5px 5px 5px #222);
 }
 
 .mainP {
-    margin: 0px 0px 50px 150px;
+    margin: 0px 0px 50px 70px;
     text-align: left;
     line-height: 30px;
     text-shadow:  1px 1px rgb(48, 44, 44);

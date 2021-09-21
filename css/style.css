@@ -159,7 +159,6 @@ div.img:hover {
     font-weight: 100;
     font-size: 18px;
     max-width: 40%;
-  
 }
 
 .liNav {
@@ -206,11 +205,6 @@ nav {
 }
 .iconsSM {
     height: 100px;
-    width: auto;
-}
-
-.iconsP {
-    height: 200px;
     width: auto;
 }
 
@@ -535,6 +529,26 @@ margin-top: 30px;
     .demonsCard {
         width: 85%;
         height: 80vh;
+    }
+    .bodyIndex {
+        background-image: url(../images/The-Conjuring-backgrounImg-mobile.jpg);
+        background-attachment: fixed;
+    }
+    .iconsSM {
+        height: 50px;
+        width: auto;
+    }
+    .iconsP {
+        height: 50px;
+        width: auto;
+    }
+    .mainTitle {
+        color: #1c89bf;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .mainP {
+        line-height: 20px;
     }
 }
 

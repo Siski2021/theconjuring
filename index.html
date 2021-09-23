@@ -2,6 +2,13 @@
 <html lang="en">
 
 <head>
+    <!--ESTO ES LA FUENTE ROBOTO DE GGOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +19,7 @@
 
 <body class="postion-relative">
     <!-- ESTAS SON LAS REDES SOCIALES FLOTANTES -->
-    <div class="position-absolute top-50 end-0 translate-middle-y d-flex flex-column">
+    <div class="position-fixed top-50 end-0 translate-middle-y d-flex flex-column carousel">
         <a href="https://www.instagram.com/theconjuring/?hl=es" target="_blank"><img src="./images/instagram.png"
                 alt="INSTAGRAM" class="iconsSM"></a>
         <a href="https://www.facebook.com/ElConjuroPeliculas/" target="_blank"><img src="./images/Facebook.png"
@@ -28,10 +35,10 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
-                    <a class="nav-link" href="./warren.html">LOS WARREN</a>
-                    <a class="nav-link" href="./movies.html">PELICULAS</a>
-                    <a class="nav-link" href="./demons.html">DEMONIOS</a>
-                    <a class="nav-link" href="./community.html">COMUNIDAD</a>
+                    <a class="nav-link" href="./pages/warren.html">LOS WARREN</a>
+                    <a class="nav-link" href="./pages/movies.html">PELICULAS</a>
+                    <a class="nav-link" href="./pages/demons.html">DEMONIOS</a>
+                    <a class="nav-link" href="./pages/community.html">COMUNIDAD</a>
                 </div>
             </div>
         </div>
@@ -40,14 +47,13 @@
     <div class="container-fluid bodyIndex">
         <!-- CONTENIDO DE LA VISTA -->
         <div class="row justify-content-center">
-            <div class="col-10 col-md-6">
-                <h1 class="mainTitle conjuringFont">Este es el universo cinematográfico de</h1>
+            <div class="col-10 col-md-6 py-5 mt-4">
                 <img src="./images/logo-conjuro.png" class="img-fluid mainImg" alt="LOGO DEL CONJURO"/>
             </div>
         </div>
 
         <div class="row justify-content-left">
-            <p class="col-7 py-5 mainP fuente-roboto">
+            <p class="col-7 py-3 mainP">
                 El universo cinematográfico de El Conjuro es una serie de películas de
                 terror, distribuidas por la división New Line Cinema de Warner Bros.
                 Pictures. Las películas presentan una toma de ficción sobre los casos de
@@ -65,7 +71,7 @@
 
     <footer class="container-fluid">
         <div class="row justify-content-center footerStyle py-5">
-            <h2 class="text-center py-5">
+            <h2 class="p-1 mb-1 bg-warning text-white mb-4 text-center bg-opacity-75">
                 PRODUCTORAS
             </h2>
             <div class="col-7 py-4 py-md-0 offset-md-0 col-md-3 producers">
@@ -78,7 +84,7 @@
             </div>
             <div class="col-7 py-4 py-md-0 offset-md-0 col-md-3">
                 <a href="https://en.wikipedia.org/wiki/Atomic_Monster_Productions" target="_blank"><img
-                        src="images/AtomicMonster.jpeg" alt="logo de atomic monster" class="img-fluid iconsP"></a>
+                        src="images/AtomicMonster.png" alt="logo de atomic monster" class="img-fluid iconsP"></a>
             </div>
         </div>
     </footer>

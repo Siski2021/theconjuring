@@ -18,8 +18,7 @@
 }
 
 .bodyWarrens {
-    background-image: url(../images/fondo-warrens.jpeg);
-    background-attachment: fixed;
+    background-color: rgb(22, 21, 21);
 }
 
 .bodyForm {
@@ -155,12 +154,15 @@ div.img:hover {
     text-align: left;
     line-height: 30px;
     text-shadow:  1px 1px rgb(48, 44, 44);
-    color: #bfa41c;
+    color: #b39d31;
     font-weight: 100;
     font-size: 18px;
     max-width: 40%;
+    font-family: 'Titillium Web';
 }
-
+.titillium {
+    font-family: 'Titillium Web';
+}
 .liNav {
     display: inline-block;
     border-color: black;
@@ -201,19 +203,11 @@ nav {
     z-index: 100;
 }
 .footerStyle {
-    background-color:black;
+    background-color: rgb(32, 37, 41);
 }
 .iconsSM {
     height: 100px;
     width: auto;
-}
-
-.footerTitle {
-    text-align: center;
-    border-top: black solid 50px;
-    border-bottom: black solid 10px;
-    font-style: italic;
-
 }
 
 .warrenSections {
@@ -238,9 +232,8 @@ nav {
 }
 
 .polaroidPic {
-    margin: 40px 5px 20px 5px;
     background-color: rgb(231, 221, 207);
-    height: 450px;
+    height: 300px;
     border-radius: 10px;
     box-shadow: 3px 5px 15px #333;
     filter:sepia(100%);
@@ -248,18 +241,20 @@ nav {
 }
 
 .imgWarrens {
-width: 500px;
+width: 400px;
 height: auto;
-margin-top: 30px;
+margin-top: 10px;
 }
 
 .pWarrens {
-    text-align: left;
-    color: #e4e2da;
-    font-family: "roboto";
-    font-weight: 100;
+    margin-top: 5%;
+    text-align: justify;
     line-height: 25px;
-    margin-top: 30px;
+    text-shadow: 1px 1px rgb(48, 44, 44);
+    color: #b39d31;
+    font-weight: 100;
+    font-size: 18px;
+    font-family: 'Titillium Web';
 }
 
 .sectionBorder{
@@ -550,5 +545,18 @@ margin-top: 30px;
     .mainP {
         line-height: 20px;
     }
+    .imgWarrens {
+        width: 240px;
+        }
+        .polaroidPic {
+            height: 200px;
+        }
+        .pWarrens {
+            line-height: 20px;
+            font-size: 13px;
+        }
+        .carousel {
+            margin-bottom: 18%;
+        }
 }
 

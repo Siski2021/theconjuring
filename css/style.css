@@ -154,7 +154,7 @@ div.img:hover {
     text-align: left;
     line-height: 30px;
     text-shadow:  1px 1px rgb(48, 44, 44);
-    color: #ffc107;
+    color: #d3c9ad;
     font-weight: 100;
     font-size: 18px;
     max-width: 40%;
@@ -203,10 +203,15 @@ nav {
     z-index: 100;
 }
 .footerStyle {
-    background-color: rgb(32, 37, 41);
+    background-color: black;
 }
 .iconsSM {
     height: 60px;
+    width: auto;
+}
+
+.iconsP {
+    height: 10px;
     width: auto;
 }
 
@@ -374,8 +379,8 @@ margin-top: 10px;
 }
 .demonCardP {
     margin: 2%;
-    font-family: "roboto";
-    font-weight: 300;
+    font-family: 'titillium';
+    font-weight: 500;
 }
 
 /*Estilos de la linea de tiempo*/
@@ -444,8 +449,8 @@ margin-top: 10px;
     text-shadow:  1px 1px rgb(58, 55, 55)
 }
 .cardP {
-    font-family: "roboto";
-    font-weight: 300;
+    font-family: 'titillium';
+    font-weight: 500;
 }
 .movieIcon {
     position: absolute;

@@ -32,20 +32,22 @@
 }
 
 .bodyDemons {
-    background-color: black;
+    background: rgb(255,193,7);
+    background: linear-gradient(180deg, rgba(255,193,7,1) 0%, rgba(0,2,3,1) 100%); 
 }
 
 h4 {
     color:#14658d;
     text-align: left;
-    font-size: 15px;
-    font-family: "adobe-garamond";   
+    font-size: 10px;
+    font-style: italic;
+    font-family: 'titillium';   
 }
 
 h3 {
     color:#1c89bf;
     text-align: center;
-    font-size: 20px;   
+    font-size: 12px;   
 }
 
 .colorDeFondoFieldset {
@@ -152,7 +154,7 @@ div.img:hover {
     text-align: left;
     line-height: 30px;
     text-shadow:  1px 1px rgb(48, 44, 44);
-    color: #b39d31;
+    color: #ffc107;
     font-weight: 100;
     font-size: 18px;
     max-width: 40%;
@@ -354,56 +356,26 @@ margin-top: 10px;
 }
 /*Estilos cards de los demonios*/
 
-.demonsCardsBoard {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.demonsCard {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 20%;
-    text-align: justify;
-    padding: 2%;
-    background-color: rgb(204, 191, 148);
-    box-shadow: 3px 5px 15px rgb(243, 236, 236);
-    margin: 2%;
-    height: 70vh;
-    border-radius: 5px;
-}
 
-.demonsCardImage {
-    width: 100%;
-    margin-bottom: 6%;
-    filter:sepia(100%);
-}
-
-.demonsCard:hover  .demonsCardImage {
+.cardSepia:hover {
     transition: 1s linear all;
     filter:sepia(0%);
-    transform: scale(1.2);
-    border-radius: 30px;
+    transform: scale(1.03);
+}
+.cardSepia {
+    filter:sepia(100%);
 }
 .demonCardTitle {
     color: #bfa41c;
     font-size: 25px;
-    padding-bottom: 10%;
-    margin-top: 4%;
-    text-shadow:  1px 1px rgb(82, 75, 75)
+    margin-top: 1%;
+    text-shadow:  1px 1px rgb(82, 75, 75);
+    font-family: 'Titillium';
 }
 .demonCardP {
     margin: 2%;
     font-family: "roboto";
     font-weight: 300;
-}
-.ulDemonsCard {
-    font-family: "roboto";
-    font-weight: 300;
-    margin-left: 7%;
-
 }
 
 /*Estilos de la linea de tiempo*/
@@ -556,6 +528,9 @@ margin-top: 10px;
         }
         .carousel {
             margin-bottom: 18%;
+        }
+        .cardSepia {
+            filter:sepia(0%);
         }
 }
 

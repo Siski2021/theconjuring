@@ -2,8 +2,8 @@
     filter:sepia(100%);
 }
 .bodyDemons {
-    background: rgb(255,193,7);
-    background: linear-gradient(180deg, rgba(255,193,7,1) 0%, rgba(0,2,3,1) 100%); 
+    background: $colorInstitucional;
+    background: linear-gradient(180deg, rgba(237,170,0,1) 0%, rgba(0,2,3,1) 100%);
 }
 .cardSepia:hover {
     transition: 1s linear all;
@@ -11,7 +11,7 @@
     transform: scale(1.03);
 }
 .demonCardTitle {
-    color: #bfa41c;
+    color: $colorInstitucional;
     font-size: 25px;
     margin-top: 1%;
     text-shadow:  1px 1px rgb(82, 75, 75);

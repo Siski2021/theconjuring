@@ -44,6 +44,9 @@
   height: auto;
   margin-top: 5%; }
 
+div div h2 {
+  background-color: #edaa00; }
+
 /* VISTA MOBILE */
 @media only screen and (max-width: 768px) {
   .polaroidPic {
@@ -155,8 +158,8 @@
   filter: sepia(100%); }
 
 .bodyDemons {
-  background: #ffc107;
-  background: linear-gradient(180deg, #ffc107 0%, #000203 100%); }
+  background: #edaa00;
+  background: linear-gradient(180deg, #edaa00 0%, #000203 100%); }
 
 .cardSepia:hover {
   transition: 1s linear all;
@@ -164,7 +167,7 @@
   transform: scale(1.03); }
 
 .demonCardTitle {
-  color: #bfa41c;
+  color: #edaa00;
   font-size: 25px;
   margin-top: 1%;
   text-shadow: 1px 1px #524b4b;

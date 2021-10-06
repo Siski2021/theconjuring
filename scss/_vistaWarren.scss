@@ -16,7 +16,13 @@
     height: auto;
     margin-top: 5%;
     }
-
+div {
+    div {
+        h2 {
+            background-color: $colorInstitucional;
+        }
+    }
+}
 
 /* VISTA MOBILE */
 @media only screen and ( max-width: 768px)  {

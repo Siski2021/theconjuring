@@ -1,0 +1,32 @@
+.cardSepia {
+    filter:sepia(100%);
+}
+.bodyDemons {
+    background: rgb(255,193,7);
+    background: linear-gradient(180deg, rgba(255,193,7,1) 0%, rgba(0,2,3,1) 100%); 
+}
+.cardSepia:hover {
+    transition: 1s linear all;
+    filter:sepia(0%);
+    transform: scale(1.03);
+}
+.demonCardTitle {
+    color: #bfa41c;
+    font-size: 25px;
+    margin-top: 1%;
+    text-shadow:  1px 1px rgb(82, 75, 75);
+    font-family: 'Titillium';
+}
+.demonCardP {
+    margin: 2%;
+    font-family: 'titillium';
+    font-weight: 500;
+}
+
+
+/* VISTA MOBILE */
+@media only screen and ( max-width: 768px)  {
+        .cardSepia {
+            filter:sepia(0%);
+        }
+}

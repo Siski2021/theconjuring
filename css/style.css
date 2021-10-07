@@ -63,7 +63,7 @@ div div h2 {
   display: flex;
   flex-direction: column; }
 
-.timeLineCard {
+.timeline__card, .timeline__card--right, .timeline__card--left {
   display: flex;
   flex-direction: row;
   width: 70%;
@@ -71,28 +71,28 @@ div div h2 {
   position: relative;
   margin: 16px 0; }
 
-.timeLineCardRight {
+.timeline__card--right {
   align-self: flex-end;
   padding: 10px 100px 10px 10px;
   margin-left: initial; }
 
-.timeLineCardLeft {
+.timeline__card--left {
   align-self: flex-start;
   padding: 10px 10px 10px 100px;
   margin-right: initial; }
 
-.cardInside {
+.cardinside, .cardinside__left, .cardinside__right {
   background-color: #fbfbfb;
   height: 120px; }
 
-.cardInsideLeft {
+.cardinside__left {
   padding: 10px 30px 10px 60px;
   border-radius: 100px 20px 20px 100px;
   left: 70px;
   right: -30px;
   width: 100%; }
 
-.cardInsideRight {
+.cardinside__right {
   padding: 10px 60px 10px 30px;
   border-radius: 20px 100px 100px 20px;
   left: -30px;
@@ -100,17 +100,17 @@ div div h2 {
   width: 100%;
   align-self: flex-start; }
 
-.yearMovie {
+.year__movie, .year__movie--left, .year__movie--right {
   text-align: center;
   font-family: "adobe-garamond";
   color: #edf1f1;
   font-size: 45px;
   text-shadow: 1px 2px black; }
 
-.yearMovieLeft {
+.year__movie--left {
   transform: rotate(-90deg); }
 
-.yearMovieRight {
+.year__movie--right {
   transform: rotate(90deg); }
 
 .cardTitle {
@@ -124,31 +124,31 @@ div div h2 {
   font-family: 'titillium';
   font-weight: 500; }
 
-.movieIcon {
+.movie__icon, .movie__icon--right, .movie__icon--left {
   position: absolute;
   background-size: cover;
   width: 140px;
   height: 120px;
   background-position: center top; }
 
-.movieIconRight {
+.movie__icon--right {
   right: -6%;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px; }
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px; }
 
-.movieIconLeft {
+.movie__icon--left {
   left: -6%;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px; }
 
-.cardTitleAndText {
+.cardtitle__and__text, .cardtitle__and__text--left, .cardtitle__and__text--right {
   display: flex;
   flex-direction: column; }
 
-.cardTitleAndTextLeft {
+.cardtitle__and__text--left {
   padding-right: 70px; }
 
-.cardTitleAndTextRight {
+.cardtitle__and__text--right {
   padding-left: 70px; }
 
 .socialMediaFixedIcons {

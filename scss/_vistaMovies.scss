@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
 }
-.timeLineCard {
+.timeline__card {
     display: flex;
     flex-direction: row;
     width: 70%;
@@ -13,21 +13,24 @@
     position: relative;
     margin: 16px 0;
 }
-.timeLineCardRight {
+.timeline__card--right {
+    @extend .timeline__card;
     align-self: flex-end;
     padding: 10px 100px 10px 10px;
     margin-left: initial;
 }
-.timeLineCardLeft {
+.timeline__card--left {
+    @extend .timeline__card;
     align-self: flex-start;
     padding: 10px 10px 10px 100px;
     margin-right: initial;
 }
-.cardInside {
+.cardinside {
     background-color: rgb(251, 251, 251);
     height: 120px;
 }
-.cardInsideLeft {
+.cardinside__left {
+    @extend .cardinside;
     padding: 10px 30px 10px 60px;
     border-radius: 100px 20px 20px 100px;
     left: 70px;
@@ -35,7 +38,8 @@
     width: 100%;
     
 }
-.cardInsideRight {
+.cardinside__right {
+    @extend .cardinside;
     padding: 10px 60px 10px 30px;
     border-radius: 20px 100px 100px 20px;
     left: -30px;
@@ -43,17 +47,19 @@
     width: 100%; 
     align-self: flex-start;
 }
-.yearMovie {
+.year__movie {
     text-align: center;
     font-family: "adobe-garamond";
     color: rgb(237, 241, 241);
     font-size: 45px;
     text-shadow:  1px 2px black   
 }
-.yearMovieLeft {
+.year__movie--left {
+    @extend .year__movie;
     transform: rotate(-90deg);
 }
-.yearMovieRight {
+.year__movie--right {
+    @extend .year__movie;
     transform: rotate(90deg);
 }
 .cardTitle {
@@ -67,32 +73,36 @@
     font-family: 'titillium';
     font-weight: 500;
 }
-.movieIcon {
+.movie__icon {
     position: absolute;
     background-size: cover;
     width: 140px;
     height: 120px;
     background-position: center top;  
 }
-.movieIconRight {
+.movie__icon--right {
+    @extend .movie__icon;
     right: -6%;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
-.movieIconLeft {
+.movie__icon--left {
+    @extend .movie__icon;
     left: -6%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-.cardTitleAndText {
+.cardtitle__and__text {
     display: flex;
     flex-direction: column;
     
 }
-.cardTitleAndTextLeft {
+.cardtitle__and__text--left {
+    @extend .cardtitle__and__text;
     padding-right: 70px;
 }
-.cardTitleAndTextRight {
+.cardtitle__and__text--right {
+    @extend .cardtitle__and__text;
     padding-left: 70px;
 }
 .socialMediaFixedIcons {

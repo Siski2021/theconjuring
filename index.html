@@ -2,106 +2,104 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Universo de El Conjuro -HOME-</title>
-
-  <!--ESTO ES LA FUENTE ROBOTO DE GGOOGLE FONTS-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-  
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+    <!--ESTO ES LA FUENTE ROBOTO DE GGOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>HOME</title>
 </head>
 
-<body class="bodyIndex">
+<body class="postion-relative">
+    <!-- ESTAS SON LAS REDES SOCIALES FLOTANTES -->
+    <div class="position-fixed top-50 end-0 translate-middle-y d-flex flex-column socialMediaFixedIcons">
+        <a href="https://www.instagram.com/theconjuring/?hl=es" target="_blank"><img src="./images/instagram.png"
+                alt="INSTAGRAM" class="iconsSM mb-2 mx-2"></a>
+        <a href="https://www.facebook.com/ElConjuroPeliculas/" target="_blank"><img src="./images/Facebook.png"
+                alt="FACEBOOK" class="iconsSM mb-2 mx-2"></a>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid bg-dark py-2">
+            <a class="navbar-brand" href="#"><img src="images/logo-conjuro.png" alt="" class="imageNavSize"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
+                    <a class="nav-link" href="./pages/warren.html">LOS WARREN</a>
+                    <a class="nav-link" href="./pages/movies.html">PELICULAS</a>
+                    <a class="nav-link" href="./pages/demons.html">DEMONIOS</a>
+                    <a class="nav-link" href="./pages/community.html">COMUNIDAD</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid bodyIndex">
+        <!-- CONTENIDO DE LA VISTA -->
+        <div class="row justify-content-center">
+            <div class="col-10 col-md-6 py-3 mt-4">
+                <img src="./images/conjuro-logo-amarillo.png" class="img-fluid mainImg" alt="LOGO DEL CONJURO" />
+            </div>
+        </div>
+
+        <div class="row justify-content-left">
+            <p class="col-9 py-3 mainP">
+                El universo cinematográfico de El Conjuro es una serie de películas de
+                terror, distribuidas por la división New Line Cinema de Warner Bros.
+                Pictures. Las películas presentan una toma de ficción sobre los casos de
+                la vida real de Ed y Lorraine Warren, investigadores paranormales y
+                autores asociados con casos importantes pero controvertidos. La saga
+                principal del universo, The Conjuring, sigue sus intentos de ayudar a
+                las personas que se encuentran poseídas por espíritus demoníacos,
+                mientras que el resto de películas son spin-off que se centran en los
+                orígenes de algunas de las entidades que los Warren han encontrado.
+            </p>
+        </div>
 
 
-  <!--ESTO ES UN MENU DE NAVEGACION-->
-  <nav class="navContainer">
-
-    <div id="imageNav" class="menuDeNav">
-      <img src="./images/logo-conjuro.png" alt="LOGO" class="imageNavSize">
     </div>
 
-    <ul class="navUl conjuringFont" id="menuDeNav">
-      <li class="liNav">
-        <a href="index.html" class="botonDeNav">HOME</a>
-      </li>
-      <li class="liNav">
-        <a href="pages/movies.html" class="botonDeNav">LAS PELICULAS</a>
-      </li>
-      <li class="liNav">
-        <a href="pages/warren.html" class="botonDeNav">LOS WARREN</a>
-      </li>
-      <li class="liNav">
-        <a href="pages/demons.html" class="botonDeNav">DEMONIOS</a>
-      </li>
-      <li class="liNav">
-        <a href="pages/community.html" class="botonDeNav">COMUNIDAD</a>
-      </li>
-    </ul>
+    <footer class="container-fluid">
+        <div class="row justify-content-center align-items-center footerStyle py-5">
+            <h5 class="p-1 mb-1 bg-dark text-white mb-4 text-center bg-opacity-75">
+                PRODUCTORAS
+            </h5>
+            <div class="col-4 py-4 py-md-0 offset-md-0 col-md-2 producers">
+                <a href="https://www.facebook.com/NewLineCinemaOfficial/" target="_blank"><img
+                        src="images/new-line-cinema.png" alt="logo de new line cinema" class="img-fluid iconsP"></a>
+            </div>
+            <div class="col-4 py-4 py-md-0 offset-md-0 col-md-2">
+                <a href="https://www.warnermedia.com/ar" target="_blank"><img src="images/warner-bros.png"
+                        alt="Logo de WARNER" class="img-fluid iconsP"></a>
+            </div>
+            <div class="col-4 py-4 py-md-0 offset-md-0 col-md-2">
+                <a href="https://en.wikipedia.org/wiki/Atomic_Monster_Productions" target="_blank"><img
+                        src="images/AtomicMonster.png" alt="logo de atomic monster" class="img-fluid iconsP"></a>
+            </div>
+            <div class="row pt-5">
+                <div class="col-lg-12 text-center">
+                    <div class="footer-copyright-text">
+                        <p>Copyright &copy; 2021 All rights reserved | This page was designed by <i
+                                class="fa fa-heart-o" arial-hidden="true"></i>
+                            <a href="mailto:pablogiudici@gmail.com">Pablo Giudici</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-
-  </nav>
-
-
-  <main>
-    <h1 class="mainTitle conjuringFont">Este es el universo cinematográfico de</h1>
-
-    <img src="./images/logo-conjuro.png" alt="LOGO DEL CONJURO" class="mainImg" />
-    <p class="mainP fuente-roboto">
-      El universo cinematográfico de El Conjuro es una serie de películas de
-      terror, distribuidas por la división New Line Cinema de Warner Bros.
-      Pictures. Las películas presentan una toma de ficción sobre los casos de
-      la vida real de Ed y Lorraine Warren, investigadores paranormales y
-      autores asociados con casos importantes pero controvertidos. La saga
-      principal del universo, The Conjuring, sigue sus intentos de ayudar a
-      las personas que se encuentran poseídas por espíritus demoníacos,
-      mientras que el resto de películas son spin-off que se centran en los
-      orígenes de algunas de las entidades que los Warren han encontrado.
-    </p>
-  </main>
-
-
-  <footer>
-
-    <h3 class="footerTitle">SEGUINOS EN NUESTRAS REDES</h3>
-
-    <ul class="socialMedia">
-      <li>
-        <a href="https://www.instagram.com/theconjuring/?hl=es" target="_blank"><img src="./images/instagram.png"
-            alt="INSTAGRAM" class="iconsSM"></a>
-      </li>
-      <li>
-        <a href="https://www.facebook.com/ElConjuroPeliculas/" target="_blank"><img src="./images/Facebook.png"
-            alt="FACEBOOK" class="iconsSM"></a>
-      </li>
-    </ul>
-
-    <h3 class="footerTitle conjuringFont">PRODUCTORAS</h3>
-    <ul class="producers">
-
-      <li>
-        <a href="https://www.facebook.com/NewLineCinemaOfficial/" target="_blank"><img
-            src="./images/new-line-cinema.png" alt="logo de new line cinema" class="iconsP"></a>
-      </li>
-      <li>
-        <a href="https://www.warnermedia.com/ar" target="_blank"><img src="./images/warner-bros.png"
-            alt="Logo de WARNER" class="iconsP"></a>
-      </li>
-      <li>
-        <a href="https://en.wikipedia.org/wiki/Atomic_Monster_Productions" target="_blank"><img
-            src="./images/AtomicMonster.jpeg" alt="logo de atomic monster" class="iconsP"></a>
-      </li>
-
-    </ul>
-
-  </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

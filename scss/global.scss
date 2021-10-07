@@ -1,0 +1,41 @@
+$colorInstitucional: #edaa00;
+
+@import "_vistaIndex.scss";
+@import "_vistaWarren.scss";
+@import "_vistaMovies.scss";
+@import "_vistaDemons.scss";
+
+
+.socialMediaFixedIcons {
+    z-index: 1000;
+}
+
+.iconsSM {
+    height: 60px;
+    width: auto;
+}
+
+.imageNavSize {
+    width: 110px;
+    display: inline-block;  
+}
+.footerStyle {
+    background-color: black;
+}
+
+.titillium {
+    font-family: 'Titillium Web';
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: rgb(46, 45, 45);
+    height: 50px;
+    z-index: 100;
+}
+
+.socialMediaFixedIcons {
+    z-index: 1000;
+}
+

@@ -1,0 +1,39 @@
+.bodyWarrens {
+    background-color: rgb(22, 21, 21);
+}
+
+.polaroidPic {
+    background-color: rgb(231, 221, 207);
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 15px #333;
+    filter:sepia(100%);
+    transform:rotate(5deg);
+    text-align: center;
+}
+.imgWarrens {
+    width: 400px;
+    height: auto;
+    margin-top: 5%;
+    }
+
+ div {
+    div {
+        h2 {
+            background-color: $colorInstitucional;
+        }
+    }
+}
+
+/* VISTA MOBILE */
+@media only screen and ( max-width: 768px)  {
+    .polaroidPic {
+        height: 200px;
+    }
+    .imgWarrens {
+        width: 240px;
+        }
+        .carousel {
+            margin-bottom: 18%;
+        }
+}

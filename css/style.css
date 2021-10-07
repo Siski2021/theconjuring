@@ -1,565 +1,211 @@
-@font-face {
-    font-family: "adobe-garamond";
-    src: url(../fonts/adobe-garamond-pro/Adobe-Garamond-Pro-Bold-Italic_2007.ttf);
-}
-
-.conjuringFont {
-    font-family: "adobe-garamond" !important;
-}
-
-* {
-    margin:0;
-    padding:0;
- }
-
-.bodyIndex {
-    background-image: url(../images/The-Conjuring-backgrounImg.jpeg);
-    background-attachment: fixed;
-}
-
-.bodyWarrens {
-    background-image: url(../images/fondo-warrens.jpeg);
-    background-attachment: fixed;
-}
-
-.bodyForm {
-    background-image: url(../images/fondo-formulario.png);
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.bodyMovies {
-    background-image: url(../images/fondo-movies.jpeg);
-    background-attachment: fixed;
-    background-size: cover;   
-}
-
-.bodyDemons {
-    background-color: black;
-}
-
-h4 {
-    color:#14658d;
-    text-align: left;
-    font-size: 15px;
-    font-family: "adobe-garamond";   
-}
-
-h3 {
-    color:#1c89bf;
-    text-align: center;
-    font-size: 20px;   
-}
-
-h2 {
-    color: #bfa41c;
-    text-align: center;
-    font-size: 45px;
-    font-family: "adobe-garamond";
-}
-
-.colorDeFondoFieldset {
-    background-color: peru;
-}
-
-
-
-.fuente-roboto {
-    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;    
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    min-height: 90vh;
-    justify-content: space-around;
-}
-
-
-
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-    height: 375px;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-div.gallery:hover {
-    border: 1px solid #777;
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
-
-p.desc {
-    padding: 15px;
-    text-align: center;
-    color:ghostwhite;
-}
-
-div.img {
-    height: 200px;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-}
-div.img:hover {
-    transform:scale(1.5)
-}
-
-.botonDeNav {
-    list-style-type: none;
-    margin-left: 15px;
-    margin-right: 15px;
-    text-decoration: none;
-    text-shadow:  1px 2px black
-}
-
-.botonDeNav:visited {
-    color: #bfa41c0e;
-   
-}
-
-.menuDeNav {
-    display: inline-block;
-    border-right: 4px #1c89bf solid;
-}
-
-.socialMedia {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    background-color: black;
-    
-}
-.producers {
-    display: flex;
-    justify-content: center;
-    
-}
-
-.mainTitle {
-    color: #1c89bf;
-    font-size: 30px;
-    font-weight: 300;
-    text-shadow: 1px 1px 2px black; 
-    margin-bottom: 50px;
-    text-align: center;
-    margin-top: 50px;
-}
-
 .mainImg {
-    width: 70%;
-    margin-bottom: 50px;
-    margin-left: 200px;
-
-    -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter: drop-shadow(5px 5px 5px #222);
-}
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222); }
 
 .mainP {
-    margin: 0px 0px 50px 150px;
-    text-align: left;
-    line-height: 30px;
-    text-shadow:  1px 1px rgb(48, 44, 44);
-    color: #bfa41c;
-    font-weight: 100;
-    font-size: 18px;
-    max-width: 40%;
-  
-}
+  margin: 0px 0px 50px 70px;
+  text-align: left;
+  line-height: 30px;
+  text-shadow: 1px 1px #302c2c;
+  color: #d3c9ad;
+  font-weight: 100;
+  font-size: 18px;
+  max-width: 40%;
+  font-family: 'Titillium Web'; }
 
-.liNav {
-    display: inline-block;
-    border-color: black;
-    padding: 10px;
-    text-align: center;
-}
-.navContainer {
-    display: flex;
-    justify-content: space-around;
-    border-bottom: 4px solid #1c89bf;
-   
-}
-.navUl {
-    margin-left: 50px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    
-}
+.bodyIndex {
+  background-image: url(../images/The-Conjuring-backgrounImg.jpeg);
+  background-attachment: fixed; }
 
-#imageNav {
-    display: inline-block;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-right: 60px;
-    padding-top: 10px;
-}
+/* VISTA MOBILE */
+@media only screen and (max-width: 768px) {
+  .mainP {
+    line-height: 20px;
+    margin-left: 6%; }
+  .bodyIndex {
+    background-image: url(../images/The-Conjuring-backgrounImg-mobile.jpg);
+    background-attachment: fixed;
+    background-position: center right; } }
 
-.imageNavSize {
-    width: 110px;
-    display: inline-block;  
-}
-
-nav {
-    position: sticky;
-    top: 0;
-    background-color: rgb(46, 45, 45);
-    height: 50px;
-    z-index: 100;
-}
-
-footer {
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-}
-
-.iconsSM {
-    height: 100px;
-    width: auto;
-}
-
-.iconsP {
-    height: 200px;
-    width: auto;
-}
-
-.footerTitle {
-    text-align: center;
-    border-top: black solid 50px;
-    border-bottom: black solid 10px;
-    font-style: italic;
-
-}
-
-.warrenSections {
-    min-height: 80vh;
-}
-
-.col-half {
-    width: 40%;
-}
-
-.flex-col {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.flex-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 50px;
-}
+.bodyWarrens {
+  background-color: #161515; }
 
 .polaroidPic {
-    margin: 40px 5px 20px 5px;
-    background-color: rgb(231, 221, 207);
-    height: 450px;
-    border-radius: 10px;
-    box-shadow: 3px 5px 15px #333;
-    filter:sepia(100%);
-    transform:rotate(5deg);
-}
+  background-color: #e7ddcf;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 3px 5px 15px #333;
+  filter: sepia(100%);
+  transform: rotate(5deg);
+  text-align: center; }
 
 .imgWarrens {
-width: 500px;
-height: auto;
-margin-top: 30px;
-}
+  width: 400px;
+  height: auto;
+  margin-top: 5%; }
 
-.pWarrens {
-    text-align: left;
-    color: #e4e2da;
-    font-family: "roboto";
-    font-weight: 100;
-    line-height: 25px;
-    margin-top: 30px;
-}
+div div h2 {
+  background-color: #edaa00; }
 
-.sectionBorder{
-    border: 3px solid #1c89bf;
-    border-radius: 0px 0px 0px 0px;
-}
+/* VISTA MOBILE */
+@media only screen and (max-width: 768px) {
+  .polaroidPic {
+    height: 200px; }
+  .imgWarrens {
+    width: 240px; }
+  .carousel {
+    margin-bottom: 18%; } }
 
-.grillaPadre {
-    display: grid;
-    grid-template-columns: 44% 45%;
-    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-    grid-template-areas: "datos1 relato"
-                          "datos2 relato"
-                          "datos3 relato"
-                          "datos4 relato"
-                          "datos5 relato"
-                          "datos6 relato"
-                          "datos7 relato"
-                          "datos8 relato"
-                          "datos9 relato";
-    height: 80vh;
-    column-gap: 4%;
-    text-align: right;
-}
-
-
-.formulario {
-    padding-top: 50px;
-    color: rgb(245, 243, 239);
-}
-
-.relatos {
-    grid-area: relato;
-    height: 85vh;
-    padding-top: 10px;
-    padding-left: 50px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    border-left: 3px solid #1c89bf;
-    border-radius: 0px 0px 0px 0px;
-    
-}
-
-.formTitle {
-    grid-area: datos1;
-    margin-top: 9px;
-    color: #1c89bf;
-    font-size: 30px;
-    font-weight: 300;
-    text-shadow: 1px 1px 2px black; 
-    margin-bottom: 50px;
-}
-
-.userName {
-    grid-area: datos2;
-}
-
-.userSurame {
-    grid-area: datos3;
-}
-
-.userAge {
-    grid-area: datos4;
-}
-
-.userEmail {
-    grid-area: datos5;
-}
-
-.userPw {
-    grid-area: datos6;
-}
-
-.noticias {
-    grid-area: datos7;
-}
-
-.terms {
-    grid-area: datos8;
-}
-
-.send {
-    grid-area: datos9;
-}
-
-.yourStoryPic {
-    padding-top: 50px;
-    
-    
-}
-  
-.yourStoyTitle {
-    margin-bottom: 50px;
-    color: #1c89bf;
-    font-size: 30px;
-    font-weight: 300;
-    text-shadow: 1px 1px 2px black; 
-    margin-bottom: 50px;
-}
-/*Estilos cards de los demonios*/
-
-.demonsCardsBoard {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.demonsCard {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 20%;
-    text-align: justify;
-    padding: 2%;
-    background-color: rgb(204, 191, 148);
-    box-shadow: 3px 5px 15px rgb(243, 236, 236);
-    margin: 2%;
-    height: 70vh;
-    border-radius: 5px;
-}
-
-.demonsCardImage {
-    width: 100%;
-    margin-bottom: 6%;
-    filter:sepia(100%);
-}
-
-.demonsCard:hover  .demonsCardImage {
-    transition: 1s linear all;
-    filter:sepia(0%);
-    transform: scale(1.2);
-    border-radius: 30px;
-}
-.demonCardTitle {
-    color: #bfa41c;
-    font-size: 25px;
-    padding-bottom: 10%;
-    margin-top: 4%;
-    text-shadow:  1px 1px rgb(82, 75, 75)
-}
-.demonCardP {
-    margin: 2%;
-    font-family: "roboto";
-    font-weight: 300;
-}
-.ulDemonsCard {
-    font-family: "roboto";
-    font-weight: 300;
-    margin-left: 7%;
-
-}
-
-/*Estilos de la linea de tiempo*/
+.bodyMovies {
+  background-color: black; }
 
 .flexColumn {
-    display: flex;
-    flex-direction: column;
-}
+  display: flex;
+  flex-direction: column; }
 
-.timeLineCard {
-    display: flex;
-    flex-direction: row;
-    width: 70%;
-    height: 140px;
-    position: relative;
-    margin: 16px 0;
-}
-.timeLineCardRight {
-    align-self: flex-end;
-    padding: 10px 100px 10px 10px;
-    margin-left: initial;
-}
-.timeLineCardLeft {
-    align-self: flex-start;
-    padding: 10px 10px 10px 100px;
-    margin-right: initial;
-}
-.cardInside {
-    background-color: rgb(251 251 251);
-    height: 120px;
-}
-.cardInsideLeft {
-    padding: 10px 30px 10px 60px;
-    border-radius: 100px 20px 20px 100px;
-    left: 70px;
-    right: -30px;
-    width: 100%;
-    
-}
-.cardInsideRight {
-    padding: 10px 60px 10px 30px;
-    border-radius: 20px 100px 100px 20px;
-    left: -30px;
-    right: 70px;
-    width: 100%; 
-    align-self: flex-start;
-}
-.yearMovie {
-    text-align: center;
-    font-family: "adobe-garamond";
-    color: rgb(237, 241, 241);
-    font-size: 45px;
-    text-shadow:  1px 2px black   
-}
-.yearMovieLeft {
-    transform: rotate(-90deg);
-}
-.yearMovieRight {
-    transform: rotate(90deg);
-}
+.timeline__card, .timeline__card--right, .timeline__card--left {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  height: 140px;
+  position: relative;
+  margin: 16px 0; }
+
+.timeline__card--right {
+  align-self: flex-end;
+  padding: 10px 100px 10px 10px;
+  margin-left: initial; }
+
+.timeline__card--left {
+  align-self: flex-start;
+  padding: 10px 10px 10px 100px;
+  margin-right: initial; }
+
+.cardinside, .cardinside__left, .cardinside__right {
+  background-color: #fbfbfb;
+  height: 120px; }
+
+.cardinside__left {
+  padding: 10px 30px 10px 60px;
+  border-radius: 100px 20px 20px 100px;
+  left: 70px;
+  right: -30px;
+  width: 100%; }
+
+.cardinside__right {
+  padding: 10px 60px 10px 30px;
+  border-radius: 20px 100px 100px 20px;
+  left: -30px;
+  right: 70px;
+  width: 100%;
+  align-self: flex-start; }
+
+.year__movie, .year__movie--left, .year__movie--right {
+  text-align: center;
+  font-family: "adobe-garamond";
+  color: #edf1f1;
+  font-size: 45px;
+  text-shadow: 1px 2px black; }
+
+.year__movie--left {
+  transform: rotate(-90deg); }
+
+.year__movie--right {
+  transform: rotate(90deg); }
+
 .cardTitle {
-    padding-bottom:  1%;
-    color: #bfa41c;
-    text-align: center;
-    font-size: 30px;
-    font-family: "adobe-garamond";
-    text-shadow:  1px 1px rgb(58, 55, 55)
-}
+  color: #bfa41c;
+  text-align: center;
+  font-size: 20px;
+  font-family: "adobe-garamond";
+  text-shadow: 1px 1px #3a3737; }
+
 .cardP {
-    font-family: "roboto";
-    font-weight: 300;
-}
-.movieIcon {
-    position: absolute;
-    top: 6%;
-    bottom: -10%;
-    background-size: cover;
-    width: 140px;
-    height: 140px;
-    background-position: center top;  
-}
-.movieIconRight {
-    right: -6%;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-.movieIconLeft {
-    left: -6%;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-.cardTitleAndText {
-    display: flex;
-    flex-direction: column;
-    
-}
-.cardTitleAndTextLeft {
-    padding-right: 70px;
-}
-.cardTitleAndTextRight {
-    padding-left: 70px;
-}
-/*Fin de estilos de linea de tiempo*/
+  font-family: 'titillium';
+  font-weight: 500; }
 
-/* MEDIA QUERY */
-@media only screen and ( max-width: 768px)  {
-    .demonsCardsBoard {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-    .demonsCard {
-        width: 85%;
-        height: 80vh;
-    }
-}
+.movie__icon, .movie__icon--right, .movie__icon--left {
+  position: absolute;
+  background-size: cover;
+  width: 140px;
+  height: 120px;
+  background-position: center top; }
 
+.movie__icon--right {
+  right: -6%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px; }
 
-@media only screen and ( max-width: 992px)  {
-    
-}
+.movie__icon--left {
+  left: -6%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px; }
 
-@media only screen and ( min-width: 992px)  {
-    
-}
+.cardtitle__and__text, .cardtitle__and__text--left, .cardtitle__and__text--right {
+  display: flex;
+  flex-direction: column; }
+
+.cardtitle__and__text--left {
+  padding-right: 70px; }
+
+.cardtitle__and__text--right {
+  padding-left: 70px; }
+
+.socialMediaFixedIcons {
+  z-index: 1000; }
+
+.cardSepia {
+  filter: sepia(100%); }
+
+.bodyDemons {
+  background: #edaa00;
+  background: linear-gradient(180deg, #edaa00 0%, #000203 100%); }
+
+.cardSepia:hover {
+  transition: 1s linear all;
+  filter: sepia(0%);
+  transform: scale(1.03); }
+
+.demonCardTitle {
+  color: #edaa00;
+  font-size: 25px;
+  margin-top: 1%;
+  text-shadow: 1px 1px #524b4b;
+  font-family: 'Titillium'; }
+
+.demonCardP {
+  margin: 2%;
+  font-family: 'titillium';
+  font-weight: 500; }
+
+/* VISTA MOBILE */
+@media only screen and (max-width: 768px) {
+  .cardSepia {
+    filter: sepia(0%); } }
+
+.socialMediaFixedIcons {
+  z-index: 1000; }
+
+.iconsSM {
+  height: 60px;
+  width: auto; }
+
+.imageNavSize {
+  width: 110px;
+  display: inline-block; }
+
+.footerStyle {
+  background-color: black; }
+
+.titillium {
+  font-family: 'Titillium Web'; }
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #2e2d2d;
+  height: 50px;
+  z-index: 100; }
+
+.socialMediaFixedIcons {
+  z-index: 1000; }

@@ -36,3 +36,14 @@
 .contact-form button:focus{
     box-shadow:none;
 }
+/* VISTA MOBILE */
+@media only screen and ( max-width: 768px)  {
+    .col-md-3{
+        border-top-right-radius: 0.5rem;
+        border-bottom-left-radius: 0rem;
+    }
+    .col-md-9{
+        border-bottom-left-radius: 0.5rem;
+        border-top-right-radius: 0rem;
+    }
+}

@@ -9,7 +9,7 @@
   text-shadow: 1px 1px #302c2c;
   color: #d3c9ad;
   font-weight: 100;
-  font-size: 18px;
+  font-size: 1.125rem;
   max-width: 40%;
   font-family: 'Titillium Web'; }
 
@@ -104,7 +104,7 @@ div div h2 {
   text-align: center;
   font-family: "adobe-garamond";
   color: #edf1f1;
-  font-size: 45px;
+  font-size: 2.8125rem;
   text-shadow: 1px 2px black; }
 
 .year__movie--left {
@@ -116,7 +116,7 @@ div div h2 {
 .cardTitle {
   color: #bfa41c;
   text-align: center;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: "adobe-garamond";
   text-shadow: 1px 1px #3a3737; }
 
@@ -168,7 +168,7 @@ div div h2 {
 
 .demonCardTitle {
   color: #edaa00;
-  font-size: 25px;
+  font-size: 1.56rem;
   margin-top: 1%;
   text-shadow: 1px 1px #524b4b;
   font-family: 'Titillium'; }

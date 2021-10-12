@@ -3,7 +3,7 @@
     padding: 4%;
     height: auto;
 }
-.col-md-3{
+.cajaNaranja{
     background: $colorInstitucional;
     padding: 4%;
     border-top-left-radius: 0.5rem;
@@ -18,7 +18,7 @@
 .contact-info h2{
     margin-bottom: 10%;
 }
-.col-md-9{
+.cajaBlanca{
     background: #fff;
     padding: 3%;
     border-top-right-radius: 0.5rem;
@@ -37,12 +37,12 @@
     box-shadow:none;
 }
 /* VISTA MOBILE */
-@media only screen and ( max-width: 768px)  {
-    .col-md-3{
+@media only screen and ( max-width: 810px)  {
+    .cajaNaranja{
         border-top-right-radius: 0.5rem;
         border-bottom-left-radius: 0rem;
     }
-    .col-md-9{
+    .cajaBlanca{
         border-bottom-left-radius: 0.5rem;
         border-top-right-radius: 0rem;
     }
